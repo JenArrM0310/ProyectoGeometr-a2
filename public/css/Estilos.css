@@ -1,0 +1,392 @@
+body, html{
+    width:100%;
+}
+body { padding-right: 0 !important }
+.contenedor{
+    width:100%;
+    margin-top:2.5rem;
+    margin-bottom: 2.5rem;
+}
+.cuadro{
+	width:35%;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+}
+.recuperacion{
+    width:35%;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+}
+.titulo{
+	margin-top: 20px;
+}
+@media only screen and (min-width: 600px) and (max-width: 1049px){
+    .cuadro{
+        width:50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+@media only screen and (max-width: 599px){
+    .cuadro{
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+/*Modal de Recomendaciones*/
+.recomendaciones{
+    font-size: 17px;
+    list-style-type:disc;
+}
+.navegadores{
+    list-style-type:square;
+}
+
+/*Barra de Navegación*/
+.contenedormenu{
+    width:100%;
+}
+.barra{
+    width: 100%;
+    font-size: 15px;
+}
+.barra_principal{
+    font-size: 18px;
+}
+
+.navbar{
+    background-color:#191970 !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1049px){
+     .barra{
+        font-size: 10px;
+     }
+}
+@media only screen and (min-width: 1050px) and (max-width: 1199px){
+     .barra{
+        font-size: 12px;
+     }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1299px){
+     .barra{
+        font-size: 13px;
+     }
+}
+@media only screen and (min-width: 1500px){
+     .barra{
+        font-size: 20px;
+        text-align: center;
+     }
+}
+.dropdown-menu .dropdown-toggle:after{
+    border-top: .3em solid transparent;
+    border-right: 0;
+        border-bottom: .3em solid transparent;
+        border-left: .3em solid;
+    }
+    .dropdown-menu .dropdown-menu{
+        margin-left:0; margin-right: 0;
+    }
+    .dropdown-menu li{
+        position: relative;
+    }
+    .nav-item .submenu{ 
+        display: none;
+        position: absolute;
+        left:100%; top:0px;
+    }
+    .nav-item .submenu-left{ 
+        right:100%; left:auto;
+    }
+    .dropdown-menu > li:hover{ background-color: #f1f1f1 }
+    .dropdown-menu > li:hover > .submenu{
+        display: block;
+    }
+@media only screen and (min-width: 750px) and (max-width: 991px){
+    .nav-item .submenu{ 
+        display: none;
+        position: absolute;
+        left:25%; top:-7px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 749px){
+    .nav-item .submenu{ 
+        display: none;
+        position: absolute;
+        left:30%; top:-7px;
+    }
+}
+@media only screen and (max-width: 599px){
+    .nav-item .submenu{ 
+        display: none;
+        position: absolute;
+        left:40%; top:-7px;
+    }
+}
+
+/*Fondo de pantalla de las plantillas de login/registro, y la principal*/
+
+#vistalogin{
+    
+    background: url("../img/lap.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#vistausuario{
+    background-color: #f2f3f4  ;
+
+}
+/*Banner Vista Usuario*/
+#banner_principal{
+    width:100%;
+   
+}
+.carousel-inner > .carousel-item  {
+  height:30rem;
+}
+
+.carousel-caption{
+    background-color:black;
+    opacity: 0.8;
+    left: 0;
+    width:90%;
+    margin-right:5%;
+    margin-left:5%;
+    transform: translateY(-30%);
+
+}
+.titulo_banner{
+    font-size: 25px;
+    color:white;
+}
+.descripcion_banner{
+    color:white;
+    font-size: 17px;
+}
+
+.contenedorP{
+    width:100%;
+}
+.mitad{
+    width:100%;
+    height:100%;
+}
+.mitad2{
+    width:100%;
+    height:100%;
+}
+.centrado{
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+    margin-right:6rem;
+    margin-left:6rem;
+    text-align: justify;
+}
+.juegos{
+    margin-left:3.5rem;
+    margin-right:3.5rem;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align:justify;
+    color:white;
+}
+.imagenes{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    align-content: center;
+    display:block;
+}
+img.imagen{
+    margin:0 auto;
+    display:block;
+    width:16rem;
+    height: 12rem;
+}
+@media only screen and (min-width:510px){
+    img.imagen_centrada{
+        margin:0 auto;
+        display:block;
+        width:12rem;
+        height: 16rem;
+    }
+    img.imagen_horizontal{
+        margin:0 auto;
+        display:inline;
+        margin-left:1.7rem;
+        margin:bottom:4rem;
+        width:12rem;
+        height: 16rem;
+    }
+}
+@media only screen and (max-width:509px){
+    img.imagen_centrada{
+        margin:0 auto;
+        display:block;
+        width:12rem;
+        height: 16rem;
+    }
+    img.imagen_horizontal{
+        margin-bottom:1rem;
+        margin-right: auto;
+        margin-left: auto;
+        display:block;
+        width:12rem;
+        height: 16rem;
+    }
+}
+img.imagenmath{
+    margin:0 auto;
+    display:block;
+    width:16rem;
+    height:12rem;
+}
+#puntaje{
+    display:inline-block;
+    float:left;
+}
+#imgpuntaje{
+    display:inline-block;
+    float:right;
+}
+
+@media only screen and (min-width: 711px){
+    .mitad{
+        width:50%;
+        float:left;
+    }
+    .mitad2{
+        width:50%;
+        float:right;
+    }
+}
+
+.botones{
+    width:100%;
+    text-align: center;
+}
+
+#video{
+    display:none;
+}
+/*Modal Información Adicional*/
+.infoJuegos{
+    text-align: justify;
+}
+#infoSerpientes, #infoIntegrales, #infoMathshot, #infoRuleta #infoAhorcado, #infoRango{
+    display:none;
+}
+/*Vista Comentarios Usuarios*/
+.contenedorTabla{
+    width:96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top:0.6rem;
+}
+
+.dataTables_info{
+    display:none;
+}
+.dataTables_length label{
+    color:black;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.dataTables_filter label{
+    color:black;
+    font-size: 20px;
+    font-weight: bold; 
+}
+#tabla_comentarios{
+    margin-top: 2rem;
+}
+.tablas{
+    background-color: white;
+}
+thead{
+    background-color:#b62335;  
+    color:white;
+}
+#tjuegos{
+    display: none;
+}
+.tituloTabla{
+    width:60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align:center;
+    opacity: 0.9;
+}
+.menuEstadisticas{
+    width:100%;
+    margin-top:2rem;
+    margin-bottom: 6.5rem;
+    text-align: center;
+}
+.boton1{
+    width:50%;
+    float:left;
+}
+.boton2{
+    width:50%;
+    float:right;
+}
+.boton{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+img.img_tabla{
+    width:9.5rem;
+}
+.dir_video{
+    width:100%;
+    display:none;
+}
+.src_link{
+    width:100%;
+    height:432px;
+    display:none;
+}
+#titulo_eliminar{
+    margin-bottom: 1.5rem;
+}
+#comentario_eliminar{
+    width:100%;
+}
+/*Barra de progreso*/
+.progress {
+    width:100%;
+    margin-bottom: 1rem;
+    height:2rem;
+    font-size: 20px;
+}
+#progreso{
+    width:100%;
+}
+
+.progress .progress-bar.active {
+    font-weight: 700;
+    animation: progress-bar-stripes .5s linear infinite;
+}
+
+.movimiento:after {
+    font-weight: 300;
+    content: '...';
+    display: inline-block;
+    width: 20px;
+    text-align: left;
+    animation: movimiento 1.5s linear infinite;
+}
+
+@keyframes movimiento {
+  0%   { content: '...'; }
+  25% { content: ''; }
+  50% { content: '.'; }
+  75% { content: '..'; }
+}
